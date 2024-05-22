@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    position: relative;
+    top: 176px;
+    left: 61px;
+}
+#new {
+    width: 232px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 19px;
+    background: none;
+    border: 1px solid;
+    margin: 10px;
+}
+#new:hover {
+    background-color: aqua;
+    color: red;
+    transition: all 2s;
+    border-radius: 8px ;
+}
+#new1 {
+    width: 290px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 19px;
+    background: none;
+    border: 1px solid;
+}
+#new1:hover {
+    background-color: aqua;
+    color: red;
+    transition: all 2s;
+    border-radius: 8px ;
+}
+.center  {
+    position: absolute;
+    top: 261px;
+    left: 495px;
+    padding: 10px;
+    margin: 10px;
+}
+.Home{
+    background-color: lightblue;
+    height: 100vh;
+    
+}

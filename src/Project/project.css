@@ -1,0 +1,117 @@
+body{
+    margin: 10px;
+}
+.container {
+    border: 2px solid;
+    width: 100%;
+    height: 750px;
+    border-radius: 8px;
+}
+.fields {
+    float:right;
+    padding: 3px;
+    font-weight: bold;
+ }
+ .heading{
+  font-weight: bold;
+ }
+ #selecter{
+    width: 300px;
+ }
+ .child{
+    display: grid;
+    grid-template-columns: 2fr 9fr; 
+    margin-bottom: 10px; 
+ }
+ #data{
+    margin-left: 100px;
+    font-weight: bold;
+ }
+ .star{
+    color: red;
+ }
+ .inbox{
+    border: 2px solid;
+    width: 1000px;
+    height: 430px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding:10px;
+ }
+ .inbox label,input {
+    margin: 15px;
+ }
+ #hello {
+    font-weight: bold;
+ }
+ #holder {
+    width: 422px;
+    height: 30px;
+ }
+ #hii {
+    width: 171px;
+    height: 30px;
+    position: relative;
+    left: 71px;
+ }
+ #state {
+    position: relative;
+    left: 84px;
+    width: 154px;
+    height: 30px;
+ }
+ #group {
+    position: relative;
+    left: 91px;
+    font-weight: bold;
+ }
+ #ip {
+    width: 41px;
+    height: 30px;
+    position: relative;
+    left: 750px;
+    top: -5x;
+    font-weight: bold;
+ }
+ .phones {
+    position: relative;
+    left: -236px;
+ }
+ #contact {
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+ }
+ .crtiteria {
+    position: relative;
+    left: 1069px;
+    font-weight: bold;
+    color: blue;
+
+ }
+ .zipcode{
+   display: flex;
+   gap: 10px;
+ }
+ .zip-phone{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+ }
+.save-button{
+   width: 120px;
+   height: 35px;
+   background: transparent;
+   border: 1px solid blue;
+   color: blue;
+   font-size: 14px;
+   font-weight: 600;
+   border-radius: 10px;
+   }
+.save-button:hover{
+   background-color: black;
+   border: none;
+   color: white;
+   cursor: pointer;
+
+}
